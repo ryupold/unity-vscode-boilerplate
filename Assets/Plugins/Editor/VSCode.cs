@@ -49,7 +49,7 @@ namespace dotBunny.Unity
 #if UNITY_EDITOR_OSX
                 var newPath = "/Applications/Visual Studio Code.app";
 #elif UNITY_EDITOR_WIN
-                var newPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.ProgramFiles) + Path.DirectorySeparatorChar + "Microsoft VS Code" + Path.DirectorySeparatorChar + "Code.exe";
+                var newPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.ProgramFiles) + " (x86)" + Path.DirectorySeparatorChar + "Microsoft VS Code" + Path.DirectorySeparatorChar + "Code.exe";
 #else
                 var newPath = "/usr/local/bin/code";
 #endif                
