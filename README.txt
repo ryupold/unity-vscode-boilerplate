@@ -3,3 +3,6 @@ I created this project setup based on this tutorial: https://code.visualstudio.c
 To enable debugging in VSCode: 
     - press [Ctrl+P]
     - enter "ext install unity-debug"
+    
+
+To start debugging press "F5" in VSCode and then start the scene in Unity 
